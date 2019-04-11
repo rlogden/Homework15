@@ -10,8 +10,6 @@ public class PerformInPerson extends TaskPerformer {
         System.out.println("Perform In Person");
     }
 
-    // I interpreted "perform in person" as opposed to "perform at office" as being going to a site to perform a task by oneself
-
     public PerformInPerson() {
     }
 
