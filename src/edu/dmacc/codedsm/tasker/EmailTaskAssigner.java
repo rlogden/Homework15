@@ -6,4 +6,5 @@ public class EmailTaskAssigner implements TaskAssigner {
     public void assignTask() {
         System.out.println("Email Task Assigner");
     }
+
 }
