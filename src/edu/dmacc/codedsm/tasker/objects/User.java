@@ -1,10 +1,8 @@
 package edu.dmacc.codedsm.tasker.objects;
 
-import edu.dmacc.codedsm.tasker.TaskAssigner;
-
 import java.util.Objects;
 
-public class User implements TaskAssigner {
+public class User {
 
     private String firstName;
     private String lastName;
@@ -64,18 +62,5 @@ public class User implements TaskAssigner {
                 '}';
     }
 
-    @Override
-    public void assignInPerson() {
-        System.out.println("Assigned in person. (User)");
-    }
 
-    @Override
-    public void assignOverEmail() {
-        System.out.println("Assigned over email. (User)");
-    }
-
-    @Override
-    public void assignOverPhone() {
-        System.out.println("Assigned over phone. (User)");
-    }
 }
