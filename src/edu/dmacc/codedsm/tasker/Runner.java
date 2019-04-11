@@ -13,6 +13,7 @@ public class Runner {
         Task myTask = new Task("Homework", 1, myUser, myUser);
         List<User> myList = new ArrayList<>();
         myList.add(myUser);
+
         PerformInPerson a = new PerformInPerson();
         PerformAtOffice b = new PerformAtOffice();
         PerformWithGroup c = new PerformWithGroup();
